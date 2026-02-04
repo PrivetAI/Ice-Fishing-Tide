@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A11111110000000000000001 /* IceFishingTideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000011 /* IceFishingTideApp.swift */; };
+		A11111110000000000000001 /* IceTideFishingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000011 /* IceTideFishingApp.swift */; };
 		A11111110000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000012 /* ContentView.swift */; };
 		A11111110000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000013 /* Assets.xcassets */; };
 		A11111110000000000000004 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000014 /* AppTheme.swift */; };
@@ -35,7 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A11111110000000000000011 /* IceFishingTideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceFishingTideApp.swift; sourceTree = "<group>"; };
+		A11111110000000000000011 /* IceTideFishingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceTideFishingApp.swift; sourceTree = "<group>"; };
 		A11111110000000000000012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A11111110000000000000013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A11111110000000000000014 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		A11111110000000000000037 /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
 		A11111110000000000000038 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		A11111110000000000000039 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		A11111110000000000000100 /* Ice Fishing Tide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice Fishing Tide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11111110000000000000100 /* Ice Tide Fishing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice Tide Fishing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +77,12 @@
 		A11111110000000000000300 = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000301 /* Ice Fishing Tide */,
+				A11111110000000000000301 /* Ice Tide Fishing */,
 				A11111110000000000000302 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A11111110000000000000301 /* Ice Fishing Tide */ = {
+		A11111110000000000000301 /* Ice Tide Fishing */ = {
 			isa = PBXGroup;
 			children = (
 				A11111110000000000000303 /* App */,
@@ -92,13 +92,13 @@
 				A11111110000000000000307 /* Theme */,
 				A11111110000000000000013 /* Assets.xcassets */,
 			);
-			path = "Ice Fishing Tide";
+			path = "Ice Tide Fishing";
 			sourceTree = "<group>";
 		};
 		A11111110000000000000302 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000100 /* Ice Fishing Tide.app */,
+				A11111110000000000000100 /* Ice Tide Fishing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 		A11111110000000000000303 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000011 /* IceFishingTideApp.swift */,
+				A11111110000000000000011 /* IceTideFishingApp.swift */,
 				A11111110000000000000012 /* ContentView.swift */,
 			);
 			path = App;
@@ -229,9 +229,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A11111110000000000000400 /* Ice Fishing Tide */ = {
+		A11111110000000000000400 /* Ice Tide Fishing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A11111110000000000000600 /* Build configuration list for PBXNativeTarget "Ice Fishing Tide" */;
+			buildConfigurationList = A11111110000000000000600 /* Build configuration list for PBXNativeTarget "Ice Tide Fishing" */;
 			buildPhases = (
 				A11111110000000000000401 /* Sources */,
 				A11111110000000000000200 /* Frameworks */,
@@ -241,9 +241,9 @@
 			);
 			dependencies = (
 			);
-			name = "Ice Fishing Tide";
-			productName = "Ice Fishing Tide";
-			productReference = A11111110000000000000100 /* Ice Fishing Tide.app */;
+			name = "Ice Tide Fishing";
+			productName = "Ice Tide Fishing";
+			productReference = A11111110000000000000100 /* Ice Tide Fishing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A11111110000000000000501 /* Build configuration list for PBXProject "Ice Fishing Tide" */;
+			buildConfigurationList = A11111110000000000000501 /* Build configuration list for PBXProject "Ice Tide Fishing" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -274,7 +274,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A11111110000000000000400 /* Ice Fishing Tide */,
+				A11111110000000000000400 /* Ice Tide Fishing */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11111110000000000000001 /* IceFishingTideApp.swift in Sources */,
+				A11111110000000000000001 /* IceTideFishingApp.swift in Sources */,
 				A11111110000000000000002 /* ContentView.swift in Sources */,
 				A11111110000000000000004 /* AppTheme.swift in Sources */,
 				A11111110000000000000005 /* WaterBodyType.swift in Sources */,
@@ -449,7 +449,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ice Fishing Tide";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ice Tide Fishing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -482,7 +482,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ice Fishing Tide";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ice Tide Fishing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -508,7 +508,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A11111110000000000000501 /* Build configuration list for PBXProject "Ice Fishing Tide" */ = {
+		A11111110000000000000501 /* Build configuration list for PBXProject "Ice Tide Fishing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A11111110000000000000601 /* Debug */,
@@ -517,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A11111110000000000000600 /* Build configuration list for PBXNativeTarget "Ice Fishing Tide" */ = {
+		A11111110000000000000600 /* Build configuration list for PBXNativeTarget "Ice Tide Fishing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A11111110000000000000603 /* Debug */,

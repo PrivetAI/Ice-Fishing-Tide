@@ -18,7 +18,7 @@ struct HomeView: View {
             VStack(spacing: 24) {
                 // Header
                 VStack(spacing: 8) {
-                    Text("Ice Fishing Tide")
+                    Text("Ice Tide Fishing")
                         .font(.system(size: 28, weight: .bold))
                         .foregroundColor(AppTheme.Colors.textPrimary)
                     

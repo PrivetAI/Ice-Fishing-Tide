@@ -1,10 +1,10 @@
-# Ice Fishing Tide
+# Ice Tide Fishing
 
 ## Subtitle
 Water Level & Moon Phase Fishing Predictor
 
 ## Description
-Ice Fishing Tide helps ice fishermen predict the best times to fish based on water level changes, tides, and moon phases. The app simulates water level fluctuations throughout the day based on your water body type and lunar cycles.
+Ice Tide Fishing helps ice fishermen predict the best times to fish based on water level changes, tides, and moon phases. The app simulates water level fluctuations throughout the day based on your water body type and lunar cycles.
 
 Features:
 - Water body selection (River, Reservoir, Lake with Inflow)
