@@ -182,32 +182,38 @@ struct MoonPhaseIcon: View {
                 .fill(AppTheme.Colors.textSecondary.opacity(0.3))
                 .frame(width: size, height: size)
             
-            moonShape
-                .fill(AppTheme.Colors.accent)
+            moonView
                 .frame(width: size, height: size)
         }
     }
     
     @ViewBuilder
-    private var moonShape: some View {
+    private var moonView: some View {
         switch phase {
         case .newMoon:
             Circle()
                 .stroke(AppTheme.Colors.accent, lineWidth: 2)
         case .fullMoon:
             Circle()
+                .fill(AppTheme.Colors.accent)
         case .firstQuarter:
             HalfMoon(isLeft: false)
+                .fill(AppTheme.Colors.accent)
         case .lastQuarter:
             HalfMoon(isLeft: true)
+                .fill(AppTheme.Colors.accent)
         case .waxingCrescent:
             CrescentMoon(illumination: 0.25, isWaxing: true)
+                .fill(AppTheme.Colors.accent)
         case .waningCrescent:
             CrescentMoon(illumination: 0.25, isWaxing: false)
+                .fill(AppTheme.Colors.accent)
         case .waxingGibbous:
             GibbousMoon(illumination: 0.75, isWaxing: true)
+                .fill(AppTheme.Colors.accent)
         case .waningGibbous:
             GibbousMoon(illumination: 0.75, isWaxing: false)
+                .fill(AppTheme.Colors.accent)
         }
     }
 }
