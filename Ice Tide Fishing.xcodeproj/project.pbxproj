@@ -7,64 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A11111110000000000000001 /* IceTideFishingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000011 /* IceTideFishingApp.swift */; };
-		A11111110000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000012 /* ContentView.swift */; };
-		A11111110000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000013 /* Assets.xcassets */; };
-		A11111110000000000000004 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000014 /* AppTheme.swift */; };
-		A11111110000000000000005 /* WaterBodyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000015 /* WaterBodyType.swift */; };
-		A11111110000000000000006 /* MoonPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000016 /* MoonPhase.swift */; };
-		A11111110000000000000007 /* WaterLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000017 /* WaterLevel.swift */; };
-		A11111110000000000000008 /* FishingLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000018 /* FishingLog.swift */; };
-		A11111110000000000000009 /* MoonCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000019 /* MoonCalculator.swift */; };
-		A1111111000000000000000A /* WaterLevelSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1111111000000000000001A /* WaterLevelSimulator.swift */; };
-		A1111111000000000000000B /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1111111000000000000001B /* StorageService.swift */; };
-		A1111111000000000000000C /* IconViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1111111000000000000001C /* IconViews.swift */; };
-		A1111111000000000000000D /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1111111000000000000001D /* PrimaryButton.swift */; };
-		A1111111000000000000000E /* WaterBodyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1111111000000000000001E /* WaterBodyCard.swift */; };
-		A1111111000000000000000F /* WaterLevelChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1111111000000000000001F /* WaterLevelChart.swift */; };
-		A11111110000000000000010 /* CalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000020 /* CalendarDayView.swift */; };
-		A11111110000000000000021 /* MoonPhaseIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000031 /* MoonPhaseIconView.swift */; };
-		A11111110000000000000022 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000032 /* HomeView.swift */; };
-		A11111110000000000000023 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000033 /* ChartView.swift */; };
-		A11111110000000000000024 /* MoonCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000034 /* MoonCalendarView.swift */; };
-		A11111110000000000000025 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000035 /* LogView.swift */; };
-		A11111110000000000000026 /* AddLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000036 /* AddLogView.swift */; };
-		A11111110000000000000027 /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000037 /* CompareView.swift */; };
-		A11111110000000000000028 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000038 /* HelpView.swift */; };
-		A11111110000000000000029 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11111110000000000000039 /* SettingsView.swift */; };
+		B10000000000000000000001 /* IceTideFishingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* IceTideFishingApp.swift */; };
+		B10000000000000000000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* RootView.swift */; };
+		B10000000000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* Assets.xcassets */; };
+		B10000000000000000000004 /* OceanPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* OceanPalette.swift */; };
+		B10000000000000000000005 /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* Definitions.swift */; };
+		B10000000000000000000006 /* LunarCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* LunarCycle.swift */; };
+		B10000000000000000000007 /* TideEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* TideEngine.swift */; };
+		B10000000000000000000008 /* Depot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000018 /* Depot.swift */; };
+		B10000000000000000000009 /* AbyssShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000019 /* AbyssShapes.swift */; };
+		B1000000000000000000000A /* Glyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001A /* Glyphs.swift */; };
+		B1000000000000000000000B /* LunarDisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001B /* LunarDisc.swift */; };
+		B1000000000000000000000C /* CapsuleControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001C /* CapsuleControl.swift */; };
+		B1000000000000000000000D /* TideGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001D /* TideGraph.swift */; };
+		B1000000000000000000000E /* TimelineScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001E /* TimelineScreen.swift */; };
+		B1000000000000000000000F /* DayInsightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001F /* DayInsightScreen.swift */; };
+		B10000000000000000000010 /* JournalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000020 /* JournalScreen.swift */; };
+		B10000000000000000000021 /* SpotlightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000031 /* SpotlightScreen.swift */; };
+		B10000000000000000000022 /* PredictorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000032 /* PredictorScreen.swift */; };
+		B10000000000000000000023 /* AlmanacScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000033 /* AlmanacScreen.swift */; };
+		B10000000000000000000024 /* ConfigScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000034 /* ConfigScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A11111110000000000000011 /* IceTideFishingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceTideFishingApp.swift; sourceTree = "<group>"; };
-		A11111110000000000000012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A11111110000000000000013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A11111110000000000000014 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
-		A11111110000000000000015 /* WaterBodyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBodyType.swift; sourceTree = "<group>"; };
-		A11111110000000000000016 /* MoonPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhase.swift; sourceTree = "<group>"; };
-		A11111110000000000000017 /* WaterLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLevel.swift; sourceTree = "<group>"; };
-		A11111110000000000000018 /* FishingLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingLog.swift; sourceTree = "<group>"; };
-		A11111110000000000000019 /* MoonCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonCalculator.swift; sourceTree = "<group>"; };
-		A1111111000000000000001A /* WaterLevelSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLevelSimulator.swift; sourceTree = "<group>"; };
-		A1111111000000000000001B /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
-		A1111111000000000000001C /* IconViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconViews.swift; sourceTree = "<group>"; };
-		A1111111000000000000001D /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
-		A1111111000000000000001E /* WaterBodyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBodyCard.swift; sourceTree = "<group>"; };
-		A1111111000000000000001F /* WaterLevelChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLevelChart.swift; sourceTree = "<group>"; };
-		A11111110000000000000020 /* CalendarDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDayView.swift; sourceTree = "<group>"; };
-		A11111110000000000000031 /* MoonPhaseIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhaseIconView.swift; sourceTree = "<group>"; };
-		A11111110000000000000032 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		A11111110000000000000033 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		A11111110000000000000034 /* MoonCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonCalendarView.swift; sourceTree = "<group>"; };
-		A11111110000000000000035 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
-		A11111110000000000000036 /* AddLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLogView.swift; sourceTree = "<group>"; };
-		A11111110000000000000037 /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
-		A11111110000000000000038 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
-		A11111110000000000000039 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		A11111110000000000000100 /* Ice Tide Fishing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice Tide Fishing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000011 /* IceTideFishingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceTideFishingApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000014 /* OceanPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanPalette.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* Definitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 /* LunarCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarCycle.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* TideEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideEngine.swift; sourceTree = "<group>"; };
+		B10000000000000000000018 /* Depot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depot.swift; sourceTree = "<group>"; };
+		B10000000000000000000019 /* AbyssShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbyssShapes.swift; sourceTree = "<group>"; };
+		B1000000000000000000001A /* Glyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glyphs.swift; sourceTree = "<group>"; };
+		B1000000000000000000001B /* LunarDisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarDisc.swift; sourceTree = "<group>"; };
+		B1000000000000000000001C /* CapsuleControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleControl.swift; sourceTree = "<group>"; };
+		B1000000000000000000001D /* TideGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideGraph.swift; sourceTree = "<group>"; };
+		B1000000000000000000001E /* TimelineScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineScreen.swift; sourceTree = "<group>"; };
+		B1000000000000000000001F /* DayInsightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayInsightScreen.swift; sourceTree = "<group>"; };
+		B10000000000000000000020 /* JournalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalScreen.swift; sourceTree = "<group>"; };
+		B10000000000000000000031 /* SpotlightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightScreen.swift; sourceTree = "<group>"; };
+		B10000000000000000000032 /* PredictorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictorScreen.swift; sourceTree = "<group>"; };
+		B10000000000000000000033 /* AlmanacScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmanacScreen.swift; sourceTree = "<group>"; };
+		B10000000000000000000034 /* ConfigScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigScreen.swift; sourceTree = "<group>"; };
+		B10000000000000000000100 /* Ice Tide Fishing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice Tide Fishing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A11111110000000000000200 /* Frameworks */ = {
+		B10000000000000000000200 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,168 +64,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A11111110000000000000300 = {
+		B10000000000000000000300 = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000301 /* Ice Tide Fishing */,
-				A11111110000000000000302 /* Products */,
+				B10000000000000000000301 /* Ice Tide Fishing */,
+				B10000000000000000000302 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A11111110000000000000301 /* Ice Tide Fishing */ = {
+		B10000000000000000000301 /* Ice Tide Fishing */ = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000303 /* App */,
-				A11111110000000000000304 /* Models */,
-				A11111110000000000000305 /* Views */,
-				A11111110000000000000306 /* Services */,
-				A11111110000000000000307 /* Theme */,
-				A11111110000000000000013 /* Assets.xcassets */,
+				B10000000000000000000303 /* Launcher */,
+				B10000000000000000000304 /* Core */,
+				B10000000000000000000305 /* Render */,
+				B10000000000000000000306 /* Screens */,
+				B10000000000000000000013 /* Assets.xcassets */,
 			);
 			path = "Ice Tide Fishing";
 			sourceTree = "<group>";
 		};
-		A11111110000000000000302 /* Products */ = {
+		B10000000000000000000302 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000100 /* Ice Tide Fishing.app */,
+				B10000000000000000000100 /* Ice Tide Fishing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A11111110000000000000303 /* App */ = {
+		B10000000000000000000303 /* Launcher */ = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000011 /* IceTideFishingApp.swift */,
-				A11111110000000000000012 /* ContentView.swift */,
+				B10000000000000000000011 /* IceTideFishingApp.swift */,
+				B10000000000000000000012 /* RootView.swift */,
 			);
-			path = App;
+			path = Launcher;
 			sourceTree = "<group>";
 		};
-		A11111110000000000000304 /* Models */ = {
+		B10000000000000000000304 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000015 /* WaterBodyType.swift */,
-				A11111110000000000000016 /* MoonPhase.swift */,
-				A11111110000000000000017 /* WaterLevel.swift */,
-				A11111110000000000000018 /* FishingLog.swift */,
+				B10000000000000000000014 /* OceanPalette.swift */,
+				B10000000000000000000015 /* Definitions.swift */,
+				B10000000000000000000016 /* LunarCycle.swift */,
+				B10000000000000000000017 /* TideEngine.swift */,
+				B10000000000000000000018 /* Depot.swift */,
 			);
-			path = Models;
+			path = Core;
 			sourceTree = "<group>";
 		};
-		A11111110000000000000305 /* Views */ = {
+		B10000000000000000000305 /* Render */ = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000308 /* Components */,
-				A11111110000000000000309 /* Home */,
-				A1111111000000000000030A /* Chart */,
-				A1111111000000000000030B /* Calendar */,
-				A1111111000000000000030C /* Log */,
-				A1111111000000000000030D /* Compare */,
-				A1111111000000000000030E /* Help */,
-				A1111111000000000000030F /* Settings */,
+				B10000000000000000000019 /* AbyssShapes.swift */,
+				B1000000000000000000001A /* Glyphs.swift */,
+				B1000000000000000000001B /* LunarDisc.swift */,
+				B1000000000000000000001C /* CapsuleControl.swift */,
+				B1000000000000000000001D /* TideGraph.swift */,
 			);
-			path = Views;
+			path = Render;
 			sourceTree = "<group>";
 		};
-		A11111110000000000000306 /* Services */ = {
+		B10000000000000000000306 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				A11111110000000000000019 /* MoonCalculator.swift */,
-				A1111111000000000000001A /* WaterLevelSimulator.swift */,
-				A1111111000000000000001B /* StorageService.swift */,
+				B1000000000000000000001E /* TimelineScreen.swift */,
+				B1000000000000000000001F /* DayInsightScreen.swift */,
+				B10000000000000000000020 /* JournalScreen.swift */,
+				B10000000000000000000031 /* SpotlightScreen.swift */,
+				B10000000000000000000032 /* PredictorScreen.swift */,
+				B10000000000000000000033 /* AlmanacScreen.swift */,
+				B10000000000000000000034 /* ConfigScreen.swift */,
 			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		A11111110000000000000307 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				A11111110000000000000014 /* AppTheme.swift */,
-			);
-			path = Theme;
-			sourceTree = "<group>";
-		};
-		A11111110000000000000308 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				A1111111000000000000001C /* IconViews.swift */,
-				A1111111000000000000001D /* PrimaryButton.swift */,
-				A1111111000000000000001E /* WaterBodyCard.swift */,
-				A1111111000000000000001F /* WaterLevelChart.swift */,
-				A11111110000000000000020 /* CalendarDayView.swift */,
-				A11111110000000000000031 /* MoonPhaseIconView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		A11111110000000000000309 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				A11111110000000000000032 /* HomeView.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		A1111111000000000000030A /* Chart */ = {
-			isa = PBXGroup;
-			children = (
-				A11111110000000000000033 /* ChartView.swift */,
-			);
-			path = Chart;
-			sourceTree = "<group>";
-		};
-		A1111111000000000000030B /* Calendar */ = {
-			isa = PBXGroup;
-			children = (
-				A11111110000000000000034 /* MoonCalendarView.swift */,
-			);
-			path = Calendar;
-			sourceTree = "<group>";
-		};
-		A1111111000000000000030C /* Log */ = {
-			isa = PBXGroup;
-			children = (
-				A11111110000000000000035 /* LogView.swift */,
-				A11111110000000000000036 /* AddLogView.swift */,
-			);
-			path = Log;
-			sourceTree = "<group>";
-		};
-		A1111111000000000000030D /* Compare */ = {
-			isa = PBXGroup;
-			children = (
-				A11111110000000000000037 /* CompareView.swift */,
-			);
-			path = Compare;
-			sourceTree = "<group>";
-		};
-		A1111111000000000000030E /* Help */ = {
-			isa = PBXGroup;
-			children = (
-				A11111110000000000000038 /* HelpView.swift */,
-			);
-			path = Help;
-			sourceTree = "<group>";
-		};
-		A1111111000000000000030F /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				A11111110000000000000039 /* SettingsView.swift */,
-			);
-			path = Settings;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A11111110000000000000400 /* Ice Tide Fishing */ = {
+		B10000000000000000000400 /* Ice Tide Fishing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A11111110000000000000600 /* Build configuration list for PBXNativeTarget "Ice Tide Fishing" */;
+			buildConfigurationList = B10000000000000000000600 /* Build configuration list for PBXNativeTarget "Ice Tide Fishing" */;
 			buildPhases = (
-				A11111110000000000000401 /* Sources */,
-				A11111110000000000000200 /* Frameworks */,
-				A11111110000000000000402 /* Resources */,
+				B10000000000000000000401 /* Sources */,
+				B10000000000000000000200 /* Frameworks */,
+				B10000000000000000000402 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -243,25 +156,25 @@
 			);
 			name = "Ice Tide Fishing";
 			productName = "Ice Tide Fishing";
-			productReference = A11111110000000000000100 /* Ice Tide Fishing.app */;
+			productReference = B10000000000000000000100 /* Ice Tide Fishing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A11111110000000000000500 /* Project object */ = {
+		B10000000000000000000500 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A11111110000000000000400 = {
+					B10000000000000000000400 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = A11111110000000000000501 /* Build configuration list for PBXProject "Ice Tide Fishing" */;
+			buildConfigurationList = B10000000000000000000501 /* Build configuration list for PBXProject "Ice Tide Fishing" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -269,63 +182,58 @@
 				en,
 				Base,
 			);
-			mainGroup = A11111110000000000000300;
-			productRefGroup = A11111110000000000000302 /* Products */;
+			mainGroup = B10000000000000000000300;
+			productRefGroup = B10000000000000000000302 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A11111110000000000000400 /* Ice Tide Fishing */,
+				B10000000000000000000400 /* Ice Tide Fishing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A11111110000000000000402 /* Resources */ = {
+		B10000000000000000000402 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11111110000000000000003 /* Assets.xcassets in Resources */,
+				B10000000000000000000003 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A11111110000000000000401 /* Sources */ = {
+		B10000000000000000000401 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11111110000000000000001 /* IceTideFishingApp.swift in Sources */,
-				A11111110000000000000002 /* ContentView.swift in Sources */,
-				A11111110000000000000004 /* AppTheme.swift in Sources */,
-				A11111110000000000000005 /* WaterBodyType.swift in Sources */,
-				A11111110000000000000006 /* MoonPhase.swift in Sources */,
-				A11111110000000000000007 /* WaterLevel.swift in Sources */,
-				A11111110000000000000008 /* FishingLog.swift in Sources */,
-				A11111110000000000000009 /* MoonCalculator.swift in Sources */,
-				A1111111000000000000000A /* WaterLevelSimulator.swift in Sources */,
-				A1111111000000000000000B /* StorageService.swift in Sources */,
-				A1111111000000000000000C /* IconViews.swift in Sources */,
-				A1111111000000000000000D /* PrimaryButton.swift in Sources */,
-				A1111111000000000000000E /* WaterBodyCard.swift in Sources */,
-				A1111111000000000000000F /* WaterLevelChart.swift in Sources */,
-				A11111110000000000000010 /* CalendarDayView.swift in Sources */,
-				A11111110000000000000021 /* MoonPhaseIconView.swift in Sources */,
-				A11111110000000000000022 /* HomeView.swift in Sources */,
-				A11111110000000000000023 /* ChartView.swift in Sources */,
-				A11111110000000000000024 /* MoonCalendarView.swift in Sources */,
-				A11111110000000000000025 /* LogView.swift in Sources */,
-				A11111110000000000000026 /* AddLogView.swift in Sources */,
-				A11111110000000000000027 /* CompareView.swift in Sources */,
-				A11111110000000000000028 /* HelpView.swift in Sources */,
-				A11111110000000000000029 /* SettingsView.swift in Sources */,
+				B10000000000000000000001 /* IceTideFishingApp.swift in Sources */,
+				B10000000000000000000002 /* RootView.swift in Sources */,
+				B10000000000000000000004 /* OceanPalette.swift in Sources */,
+				B10000000000000000000005 /* Definitions.swift in Sources */,
+				B10000000000000000000006 /* LunarCycle.swift in Sources */,
+				B10000000000000000000007 /* TideEngine.swift in Sources */,
+				B10000000000000000000008 /* Depot.swift in Sources */,
+				B10000000000000000000009 /* AbyssShapes.swift in Sources */,
+				B1000000000000000000000A /* Glyphs.swift in Sources */,
+				B1000000000000000000000B /* LunarDisc.swift in Sources */,
+				B1000000000000000000000C /* CapsuleControl.swift in Sources */,
+				B1000000000000000000000D /* TideGraph.swift in Sources */,
+				B1000000000000000000000E /* TimelineScreen.swift in Sources */,
+				B1000000000000000000000F /* DayInsightScreen.swift in Sources */,
+				B10000000000000000000010 /* JournalScreen.swift in Sources */,
+				B10000000000000000000021 /* SpotlightScreen.swift in Sources */,
+				B10000000000000000000022 /* PredictorScreen.swift in Sources */,
+				B10000000000000000000023 /* AlmanacScreen.swift in Sources */,
+				B10000000000000000000024 /* ConfigScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A11111110000000000000601 /* Debug */ = {
+		B10000000000000000000601 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		A11111110000000000000602 /* Release */ = {
+		B10000000000000000000602 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -439,13 +347,13 @@
 			};
 			name = Release;
 		};
-		A11111110000000000000603 /* Debug */ = {
+		B10000000000000000000603 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -474,13 +382,13 @@
 			};
 			name = Debug;
 		};
-		A11111110000000000000604 /* Release */ = {
+		B10000000000000000000604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -512,25 +420,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A11111110000000000000501 /* Build configuration list for PBXProject "Ice Tide Fishing" */ = {
+		B10000000000000000000501 /* Build configuration list for PBXProject "Ice Tide Fishing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A11111110000000000000601 /* Debug */,
-				A11111110000000000000602 /* Release */,
+				B10000000000000000000601 /* Debug */,
+				B10000000000000000000602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A11111110000000000000600 /* Build configuration list for PBXNativeTarget "Ice Tide Fishing" */ = {
+		B10000000000000000000600 /* Build configuration list for PBXNativeTarget "Ice Tide Fishing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A11111110000000000000603 /* Debug */,
-				A11111110000000000000604 /* Release */,
+				B10000000000000000000603 /* Debug */,
+				B10000000000000000000604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A11111110000000000000500 /* Project object */;
+	rootObject = B10000000000000000000500 /* Project object */;
 }
